@@ -143,7 +143,7 @@ const WatchListActions = ({ uid }) => {
           title="Buy (B)"
           placement="top"
           arrow
-          TransitionComponent={Grow}
+          Transition
           onClick={handleBuyClick}
         >
           <button className="buy">Buy</button>
@@ -152,7 +152,6 @@ const WatchListActions = ({ uid }) => {
           title="Sell (S)"
           placement="top"
           arrow
-          TransitionComponent={Grow}
         >
           <button className="sell">Sell</button>
         </Tooltip>
@@ -160,13 +159,12 @@ const WatchListActions = ({ uid }) => {
           title="Analytics (A)"
           placement="top"
           arrow
-          TransitionComponent={Grow}
         >
           <button className="action">
             <BarChartOutlined className="icon" />
           </button>
         </Tooltip>
-        <Tooltip title="More" placement="top" arrow TransitionComponent={Grow}>
+        <Tooltip title="More" placement="top" arrow>
           <button className="action">
             <MoreHoriz className="icon" />
           </button>
