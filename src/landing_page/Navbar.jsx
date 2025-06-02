@@ -16,8 +16,8 @@ const Navbar = () => {
           <form>
             <ul className="nav nav-pills ">
               <li className="nav-item">
-                <Link className="nav-link fs-5 font-color" to="/Signup">
-                  Signup
+                <Link to="/" className="nav-link fs-5 font-color">
+                  Home
                 </Link>
               </li>
               <li className="nav-item">

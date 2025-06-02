@@ -13,7 +13,7 @@ const Hero = () => {
         className="btn btn-primary fs-5 mb-5"
         style={{ width: "18%", margin: "0 auto", height: "3rem" }}
       >
-        Signup Now
+        <a href='https://zerodha.com/open-account/' style={{color:"white", textDecoration:"none"}}>Signup Now</a>
       </button>
     </div>
   </div>
