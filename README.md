@@ -1,1 +1,1 @@
-# A Full-Stack Stock Trading Platform
+# Zerodha Clone
